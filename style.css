@@ -1,20 +1,16 @@
 
-html {
-    box-sizing: border-box;
-}
 html, body {
     width: 100%;
     position: relative;
-}
-html {
+    box-sizing: border-box;
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-}
-html {
     display: block;
     color: -internal-root-color;
+
 }
+
 body {
     overflow: auto;
     width: 100%;
@@ -35,9 +31,6 @@ body {
     display: block;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
-}
 main {
     background: #ffffff;
     opacity: 1;
@@ -70,7 +63,43 @@ p.u-large {
     font-weight: 800;
     position: relative;
 }
-.case-study-banner{-ms-flex-line-pack:center;align-content:center;-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:center;justify-content:center;margin:0 auto;max-width:1440px;width:85%;background-color:#242529;background-position:center center;background-repeat:no-repeat;background-size:cover;height:95vh;min-height:31.25rem;max-width:100%;position:relative;z-index:5}
+.folio-text:before {
+    content: '';
+    height: .1875rem;
+    width: 1.875rem;
+    position: absolute;
+    left: -3.125rem;
+    top: 50%;
+    background: #dedede;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.case-study-banner{
+    -ms-flex-line-pack:center;
+    align-content:center;
+    -ms-flex-align:center;
+    align-items:center;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-direction:row;
+    flex-direction:row;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    -ms-flex-pack:center;
+    justify-content:center;
+    margin:0 auto;
+    max-width:1440px;
+    width:85%;
+    background-color:#242529;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:95vh;
+    min-height:31.25rem;
+    max-width:100%;
+    position:relative;
+    z-index:5
+}
 .case-study-banner:before {
     animation: _cs-banner-fade 1.25s ease;
     background: #242529;
@@ -89,7 +118,7 @@ p.u-large {
     -ms-flex-align: center;
     align-items: center;
     display: -ms-flexbox;
-    display: flex;
+    display: inline-flex;
     -ms-flex-direction: row;
     flex-direction: row;
     -ms-flex-wrap: wrap;
