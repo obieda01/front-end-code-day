@@ -279,17 +279,15 @@ ul {
     box-sizing: border-box;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #767676;
-    /*the copyright colors text*/
+    
 }
 
 
 /** Footer **/
-
 .footer {
     padding: 10px 200px;
     border-top: 1px solid #dbdbdb;
     background-color: #F4F1F1;
-    /*bg color*/
 }
 
 .footer li {
@@ -311,8 +309,6 @@ ul {
     font-size: 0.9em;
 }
 
-
-
 .about-list {
     display: flex;
     align-items: center;
@@ -326,7 +322,6 @@ ul {
 
 .about-list li {
     margin: 0 5px;
-    /*space between social icons*/
 }
 
 
