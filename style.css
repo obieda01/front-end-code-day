@@ -122,12 +122,10 @@ p.u-large {
     align-content: center;
     -ms-flex-align: center;
     align-items: center;
-    display: -ms-flexbox;
-    display: inline-flex;
+    display: flex;
     -ms-flex-direction: row;
     flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+
     -ms-flex-pack: center;
     justify-content: center;
     margin: 0 auto;
@@ -136,6 +134,7 @@ p.u-large {
 }
 .hotdog-section-top-two {
     width: 41.66667%;
+    flex: 50.33%;
     margin-left: 8.33333%;
     margin-right: 8.33333%;
 }
@@ -331,27 +330,5 @@ ul {
 }
 
 
-/** Viewport <= 800px **/
 
-@media (max-width: 800px) {
-    .footer {
-        padding: 0 30px;
-        padding-bottom: 30px;
-    }
-    .footer-content {
-        padding-top: 50px;
-    }
-
-    .hotdog-section {
-        padding: 3rem 0;
-    }
-    .hotdog-section-top-one {
-        width: 41.66667%;
-    }
-    .hotdog-section-top-two {
-        width: 41.66667%;
-        margin-left: 8.33333%;
-        margin-right: 8.33333%;
-    }
-}
 
